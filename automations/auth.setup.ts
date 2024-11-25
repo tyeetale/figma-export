@@ -37,7 +37,7 @@ setup("authenticate", async () => {
     // Wait for 2 minutes for manual login; you can adjust this timeout as needed
     setTimeout(() => {
       resolve(true);
-    }, 30 * 1000); // 120 seconds
+    }, 10 * 1000); // 120 seconds
   });
 
   // Save session state to authFile after login is complete
